@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "emenu"
+version = "0.1.0"
+description = ""
+authors = ["qzibet <qzibet@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.4"
+djangorestframework = "^3.14.0"
+django-filter = "^22.1"
+drf-yasg = "^1.21.4"
+factory-boy = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
