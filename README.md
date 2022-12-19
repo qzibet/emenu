@@ -11,6 +11,9 @@
 ## Запуск django
     python manage.py runserver
 
+### Перед запуском нужно применить миграции
+    python manage.py migrate
+
 ## Запуск тестов
     python manage.py test
 
